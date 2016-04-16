@@ -50,7 +50,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\Client\</OutputPath>
+    <OutputPath>..\..\mir2-compiled\Client\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -64,7 +64,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Client.ico</ApplicationIcon>
+    <ApplicationIcon>MIR2 - Copy.ICO</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>9E5B013900C639479A5BE07D94C6D9183B921CCA</ManifestCertificateThumbprint>
@@ -289,6 +289,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Client.ico" />
+    <Content Include="MIR2 - Copy.ICO" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
